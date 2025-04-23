@@ -2,6 +2,9 @@
 pragma solidity ^0.8.9;
 import "hardhat/console.sol";
 
+/// @title SolidityModifiers Contract
+/// @notice This contract demonstrates the use of modifiers to restrict access to functions.
+/// @dev Includes an isAdmin modifier to allow only the admin to add balance.
 contract SolidityModifiers {
     address admin;
     uint256 balance = 0;

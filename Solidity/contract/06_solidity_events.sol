@@ -2,6 +2,9 @@
 pragma solidity ^0.8.9;
 import "hardhat/console.sol";
 
+/// @title SolidityEvents Contract
+/// @notice This contract demonstrates the use of events to log state changes.
+/// @dev Includes an event emitted when balance is added.
 contract SolidityEvents {
     event BalanceAdded(address sender);
 

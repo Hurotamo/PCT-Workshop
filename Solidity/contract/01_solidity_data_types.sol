@@ -2,6 +2,9 @@
 pragma solidity ^0.8.9;
 import "hardhat/console.sol";
 
+/// @title SolidityDataTypes Contract
+/// @notice This contract demonstrates Solidity data types including uint256, address, and mapping.
+/// @dev Includes a constructor initializing some values and logging them.
 contract SolidityDataTypes {
     uint256 balance;
     address owner;

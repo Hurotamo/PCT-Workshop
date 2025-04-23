@@ -4,6 +4,9 @@ import "hardhat/console.sol";
 
 error YouAreNotError();
 
+/// @title SolidityErrors Contract
+/// @notice This contract demonstrates custom error handling using revert.
+/// @dev Includes a custom error and an isAdmin modifier that reverts with the error.
 contract SolidityErrors {
     address admin;
     uint256 balance = 0;
