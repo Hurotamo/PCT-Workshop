@@ -7,6 +7,9 @@ const { PRIVATE_KEY } = process.env;
 
 const config: HardhatUserConfig = {
   solidity: "0.8.28",
+  paths: {
+    sources: "./contract"
+  },
   networks: {
     core_testnet: {
       accounts: [
