@@ -33,3 +33,5 @@ npx hardhat compile
 npx hardhat run scripts/deploy.js --network core_testnet
 ```
 
+git add . && git commit -m "Commit all changes"
+git push 
