@@ -35,3 +35,5 @@ npx hardhat run scripts/deploy.js --network core_testnet
 
 git add . && git commit -m "Commit all changes"
 git push 
+
+https://hardhat.org/hardhat-runner/docs/getting-started
